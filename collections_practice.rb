@@ -57,12 +57,10 @@ end
 def add_s(array)
   new_array = []
   array.each do |x|
-    binding.pry
    if x != array[1]
-     binding.pry
   new_array << x + "s"
   else
-    binding.pry
+    new_array << x
   end
  end 
   new_array
