@@ -59,25 +59,10 @@ def add_s(array)
   array.each do |x|
    if x == array[0, 2, 3]
   x = x + "s"
-  binding.pry
   new_array << x
   end
  end 
   new_array
 end
-
-
-
-#def add_s(array)
-#  new_array = []
- # array.each do |x|
-    # if x is NOT equal to array[1]
-# 	 x = x + "s"
- # 	new_array << x
-    # end
-# end
-#  new_array
-#end
-
 
 
